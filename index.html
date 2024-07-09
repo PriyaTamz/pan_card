@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Card</title>
+
+    <style>
+        .heading{
+            background-color: brown;
+            text-align: center;
+            color: white;
+        }
+
+        u{
+            color: orange;
+        }
+
+        span{
+            color: red;
+        }
+
+        body{
+            background-color: beige;
+        }
+
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        *{
+            margin: 0px;
+        }
+
+        .main{
+            display: inline-block;
+        }
+
+        .blue{
+            color: blue;
+        }
+
+    </style>
+        
+</head>
+<body>
+
+    <div class="heading">
+        <b>Request For New Pan Card Or/And Changes Or Correction In Pan Data</b><br>
+        <i>Fields marked with <span>*</span> (asterik) are mandatory. To avoid mistake(s), please refer <u>guideliness</u> and <u>instructions.</u></i>
+    </div>
+
+    <table width="100%">
+        <tbody>
+            <tr>
+                <td></td>
+                <td colspan="2"><span>*</span><b>Whether citizen of India</b>
+                <label for="yes" style="padding-left: 60px;">Yes</label>
+                <input type="radio" name="" id="yes"></input>
+                <label for="no" style="padding-left: 30px;">No</label>
+                <input type="radio" name="" id="no"></input>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><span>*</span><b>Permanent Account Number (PAN)</b>
+                <input type="text" name="" id=""></input>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:2px;margin:12px;">
+                    <input type="checkbox" name="" id=""></input>
+                </td>
+                <td><span>*</span><b>1. Name</b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><b>Title</b>
+                <label for="Shri/Mr" style="padding-left: 20px;">Shri/Mr</label>
+                <input type="radio" name="" id="Shri/Mr"></input>
+                <label for="Smt./Mrs." style="padding-left: 20px;">Smt./Mrs.</label>
+                <input type="radio" name="" id="Smt./Mrs."></input>
+                <label for="Kumari/Ms" style="padding-left: 20px;">Kumari/Ms</label>
+                <input type="radio" name="" id="Kumari/Ms"></input>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div class="main">
+                        <label for="Last Name/Surname"><b>Last Name/Surname</b></label><br>
+                        <input type="text" name="" id="Last Name/Surname"></input>
+                    </div>
+                    <div class="main" style="padding-left: 300px;">
+                        <label for="First Name"><b>First Name</b></label><br>
+                        <input type="text" name="" id="First Name"></input>
+                    </div>
+                    <div class="main" style="padding-left: 290px;">
+                        <label for="Middle Name"><b>Middle Name</b></label><br>
+                        <input type="text" name="" id="Middle Name"></input>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="prefix"><span>*</span><b>Name as you would like it printed on the card </b><span class="blue">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, MS, Mr, Mrs, M/s, Alias, etc. are not allowed)</span></label><br>
+                    <input type="text" name="" id="prefix"></input>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="prefix"><b>Details of Parents. </b><span class="blue">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, MS, Mr, Mrs, M/s, Alias, etc. are not allowed)</span></label><br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
